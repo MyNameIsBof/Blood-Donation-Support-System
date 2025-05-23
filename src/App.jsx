@@ -1,16 +1,10 @@
 // src/App.jsx
-
-import Navbar from "../component/nvarbar";
-
-
+import BloodDonationWebsite from "../component/homepage";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="container mt-4">
-        <h1>Blood Donation</h1>
-      </div>
+      <BloodDonationWebsite />
     </>
   );
 }
